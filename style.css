@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: YuGothic;
+}
+
+a {
+    color: #1BA8D3;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 100px;
+}
