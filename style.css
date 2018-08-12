@@ -7,14 +7,14 @@ a {
   color: #1BA8D3; }
 
 header {
-  padding: 30px 50px; }
+  padding: 30px; }
   header h1 {
     font-size: 16px; }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
-  padding-top: 50px; }
+  padding: 50px 30px;
+  max-width: 1200px; }
 
 .text-gray {
   color: #ccc; }
