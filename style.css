@@ -19,6 +19,9 @@ header {
 .text-gray {
   color: #ccc; }
 
+.text-center {
+  text-align: center; }
+
 section {
   margin-bottom: 80px; }
 
