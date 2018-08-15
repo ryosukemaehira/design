@@ -28,6 +28,20 @@ section {
 section
 h1 {
   font-size: 36px;
-  margin-bottom: 0.8em; }
+  margin-bottom: 0.8em;
+  margin-left: 10px;
+  position: relative; }
+  section
+  h1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -35px;
+    top: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: #000;
+    transform: rotate(45deg);
+    background: linear-gradient(to bottom, #00C4FF, #009DFF); }
 
 /*# sourceMappingURL=style.css.map */
