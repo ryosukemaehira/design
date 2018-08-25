@@ -6,6 +6,9 @@ body {
 a {
   color: #1BA8D3; }
 
+ul li a {
+  line-height: 2; }
+
 header {
   padding: 30px; }
   header h1 {
