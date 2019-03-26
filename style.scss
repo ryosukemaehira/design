@@ -1,7 +1,57 @@
+// @font-face {
+//     font-family: 'Noto Sans Japanese';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: url('./fonts/NotoSansCJKjp-Bold.woff2') format('woff2'),
+//     url('./fonts/NotoSansCJKjp-Bold.woff') format('woff'),
+//     url('./fonts/NotoSansCJKjp-Bold.ttf')  format('truetype'),
+//     url('./fonts/NotoSansCJKjp-Bold.eot') format('embedded-opentype'),
+//     url('./fonts/NotoSansJP-Bold.otf') format('opentype');
+// }
+
+
+@font-face {
+  // font-family: 'Noto Sans JP';
+  // font-style: normal;
+  // font-weight: 400;
+  // font-display: swap;
+  // src:
+  //   url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+  //   url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+  //   url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+
+
+// @font-face {
+//       font-family: 'Noto Sans JP';
+//       font-style: normal;
+//       font-weight: 400;
+//     src: local("Noto Sans CJK JP Regular"),
+//            url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+//            url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+//            url(https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+//    }
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Avenir, YuGothic;
+    // font-family: Noto Sans Japanese;
+    // font-feature-settings: "palt";
+    // -webit-font-feature-settings: "palt";
+    // font-family: YakuHanJP, 'Noto Sans JP', sans-serif;
+    // font-family: YakuHanJP, "Noto Sans Japanese";
+    font-feature-settings : "palt";
+    
+    font-family: source-han-sans-japanese, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+.tate {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
 }
 
 a {
@@ -40,7 +90,7 @@ header {
 section {
     margin-bottom: 80px;
     
- 
+
 }
 
 section
@@ -50,6 +100,7 @@ h1 {
     margin-bottom: 0.8em;
     margin-left: 10px;
     position: relative;
+    letter-spacing: 0.07em;
 
     &:before {
         content: '';

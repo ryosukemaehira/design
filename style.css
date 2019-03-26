@@ -1,7 +1,16 @@
+@font-face {}
 body {
   margin: 0;
   padding: 0;
-  font-family: Avenir, YuGothic; }
+  font-feature-settings: "palt";
+  font-family: source-han-sans-japanese, sans-serif;
+  font-style: normal;
+  font-weight: 100; }
+
+.tate {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl; }
 
 a {
   color: #1BA8D3; }
@@ -33,7 +42,8 @@ h1 {
   font-size: 36px;
   margin-bottom: 0.8em;
   margin-left: 10px;
-  position: relative; }
+  position: relative;
+  letter-spacing: 0.07em; }
   section
   h1:before {
     content: '';
